@@ -5,24 +5,127 @@
         <title>My Personal Site</title>
     </head>
     <body>
-        <img src="images/Profile Picture-modified.png" alt="Shaavan Personal Image" border="5">
-        <h1>Shashwat Vangani</h1>
-        <p><em>Software Engineer at <strong><a href="https://www.github.com/bitcoin/bitcoin">Bitcoin core</a></strong></em></p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis doloremque officia nam consequatur debitis
-        laboriosam est ad! Nesciunt blanditiis ipsam vitae, assumenda, sequi perspiciatis, quia libero eos quibusdam molestiae vero.</p>
 
+        <table cellpadding="8">
+            <tr>
+                <td><img src="images/shaavan.png" alt="Shaavan Personal Image" width="150"></td>
+                <td>
+                    <h1>Shashwat Vangani</h1>
+                    <p><em>Open-source contributor at <strong><a href="https://www.github.com/bitcoin/bitcoin">Bitcoin core</a></strong></em></p>
+                    <p>I am a developer. I code. 🧑‍💻</p>
+                </td>
+            </tr>
+        </table>
+        
         <hr>
 
         <h3>My Works</h3>
         <ul>
             <li> <a href="https://www.github.com/bitcoin-core/gui-qml">GUI-QML</a></li>
-            <li>Onboarding Wizard</li>
-            <li>Block Clock</li>
             <ul>
-                <li>Sub-Block Clock</li>
+                <li> <a href="https://github.com/bitcoin-core/gui-qml/pull/124">Onboarding Wizard</a>for GUI-QML</li>
+                <li><a href="https://github.com/bitcoin-core/gui-qml/pull/148">Block Clock</a> for GUI-QML</li>
             </ul>
+            <li> <a href="https://github.com/bitcoinops/bitcoinops.github.io/pulls?q=is%3Apr+is%3Aclosed+author%3Ashaavan">Translations</a> for Bitcoin Optech</li>
         </ul>
-        <p><a href="hobbies.html">Hobbies</a></p>
-        <p><a href="contact.html">Contact me</a></p>
+
+        <!--Table-->
+
+        <hr>
+
+        <h3>Work Experience</h3>
+
+        <table cellpadding="2" cellspacing="5"> <!-- Border attribute is deprecated, because all styling are encouraged to be done by CSS. -->
+            <thead> <!-- This contains the header column of the table, and is stylised as bold by default. -->
+                <th>Date</th> <!-- <th> is special table element for header content. -->
+                <th>Experience</th>
+            </thead>
+            <tbody> <!-- Contain rest of the table body -->
+                <tr> <!-- Stands for table row. This contain the elements that shall be filled in one row. -->
+                    <td>2018-22</td> <!-- Stands for table data. Contains the data to be filled in one row.-->
+                    <td>Bachelor of Technology IITR</td>
+                </tr>
+                <tr>
+                    <td>2022-current</td>
+                    <td>Software Engineering in Bitcoin core</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <hr>
+
+        <!-- Table Challenge -->
+
+        <h3>Skills</h3>
+
+        <table cellpadding="2" cellspacing="5">
+            <tr>
+                <td>
+                    <td>C++</td>
+                    <td>⭐️⭐️⭐️⭐️</td>
+                </td>
+                <td>
+                    <td>QML</td>
+                    <td>⭐️⭐️⭐️⭐️</td>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <td>Guitar</td>
+                    <td>⭐️</td>
+                </td>
+                <td>
+                    <td>Writing</td>
+                    <td>⭐️⭐️⭐️⭐️</td>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Done Table Challenge -->
+
+        <!-- Solution Table -->
+
+        <h5>//Solution Table</h5>
+        <table cellpadding="2" cellspacing="5">
+            <tr>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <td>C++</td>
+                                <td>⭐️⭐️⭐️⭐️</td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <td>Guitar</td>
+                                <td>⭐️</td>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>
+                                <td>QML</td>
+                                <td>⭐️⭐️⭐️⭐️</td>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <td>Writing</td>
+                                <td>⭐️⭐️⭐️⭐️</td>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+
+        <hr>
+
+        <p><a href="hobbies.html">Hobbies</a> <a href="contact.html">Contact me</a></p>
+
     </body>
 </html>
